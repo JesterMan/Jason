@@ -1,6 +1,7 @@
 
 body{
     margin: 0;
+    color: white;
 }
 .wrapper{
     height: 90%;
@@ -9,7 +10,7 @@ body{
     width: 15%;
     height: 100%;
     background-color: #C9CDD0;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 #leftpane{
     margin-left: 0;
@@ -21,18 +22,21 @@ body{
     float: left;
 }
 #centerpane{
-    background-color: pink;
+    background-image: url(images/movie.gif); 
+    background-position: center center;
+    background-size: cover;
     float: left;
     height: 111.5%;
-    width:70%;
+    width: 70%;
     margin-top: 0;
-    z-index: 9;
+ /*   margin-left: -4vw;*/
+    z-index: 0;
 }
 .title{
     height: 18%;
     width: 78%;
     position: absolute;
-    margin-left: -5%;
+    margin-left: -4%;
     padding-top: 2%;
     background-color: rgba(254, 253, 223, 0.2);
     text-align: center;
@@ -50,7 +54,7 @@ body{
     font-size: 4vw;
     background-color: rgba(254, 253, 223, 1);
 }
-.titletop:after, titlebot:after{
+.spaced:after{
     content: "";
     display: inline-block;
     width: 100%;
@@ -69,22 +73,56 @@ body{
 }
 .botpane{
     bottom:0;
+    margin-top: 56%;
+
+}
+.panetop{
+    margin-top: 1.09vw;
+    text-align: left;
+    padding-left: 3vw;
+}
+.panebot{
+    font-size: 1.6vw;
+    text-align: justify;
 }
 .bookcover{
     height: 70%;
     width: 50%;
     z-index: 10;
 }
+.panebot .bookcover{
+    margin-left: 100%;
+}
 .desc{
     background-color: rgba(224,  172, 249, 0.3 );
-    color: white;
     width: 50%;
-    height: 2vw;
+    height: 1.5vw;
     font-size: 1.2vw;
     z-index: 15;
     position: absolute;
 }
+.descright{
+    margin-left: -35%;
+}
 .coverimg{
     height: 100%;
     width: 100%;
+}
+.sidelinks{
+    text-align: justify;
+    margin-top: 65%;
+}
+.cont{
+    font-size: 2.2vw;
+}
+.proj{
+    margin-top: 10%;
+    font-size: 3vw;
+}
+.scul{
+    margin-top: 25%;
+    font-size: 1.37vw;
+}
+.scul span{
+    font-size: 2.8vw;
 }
