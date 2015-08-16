@@ -126,3 +126,25 @@ body{
 .scul span{
     font-size: 2.8vw;
 }
+.phoney{
+    display:none;
+}
+
+@media only screen and (max-width : 719px) {
+    #leftpane, #rightpane{
+        display: none;
+    }
+    #centerpane, .title{
+        width: 100%;
+    }
+    .title{
+        margin-left: 0;
+    }
+    .phoney{
+        display:block;
+        margin-top: 25%;
+        padding: 2%;
+        font-size: 22pt;
+    }
+
+}
