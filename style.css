@@ -22,7 +22,6 @@ body{
     color: white;
     text-align: center;
     font-size: 3.1vw;
-   
 }
 #rightpane{
      margin-right: 0;
@@ -215,4 +214,5 @@ body{
     width: 200%;
     height: 200%;
     background-image: url(images/pychology.png);
+
 }
