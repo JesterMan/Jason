@@ -4,9 +4,10 @@ body{
     background-color: black;
     height: 100%;
     width: 100%;
+    font: Arial, sans;
 }
 .wrapper{
-    height: 90%;
+    height: 100%;
 }
 .sidediv{
     width: 15%;
@@ -15,21 +16,31 @@ body{
 }
 #leftpane{
     margin-left: 0;
+    margin-top: 5%;
     float: left;
     display: block;
+    color: white;
+    text-align: center;
+    font-size: 3.1vw;
+   
 }
 #rightpane{
-    margin-right: 0;
-    float: left;
+     margin-right: 0;
+    margin-top: -55%;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 3.1vw;
 }
 #centerpane{
     background-image: url(images/movie.gif); 
     background-position: center center;
     background-size: cover;
-    float: left;
+   
     height: 100%;
-    width: 70%;
-    margin-top: 2.5%;
+ 
+   
  /*   margin-left: -4vw;*/
     z-index: 0;
 }
@@ -135,12 +146,15 @@ body{
 }
 .mainmessage{
     color: red;
-
+    background-position: center center;
+    text-align: center;
     font-size: 40pt;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-image: url(images/movie.gif);
     font-weight: 900;
+    margin-left: 25%;
+    width: 50%;
 }
 
 @media only screen and (max-width : 719px) {
@@ -189,3 +203,16 @@ body{
     animation: flickerAnimation 10s 3;
 
 }*/
+
+.rightmany{
+    margin-left: 0;
+    width: 15%;
+    height: 100%;
+    color: red;
+    float: left;
+}
+.psych{
+    width: 200%;
+    height: 200%;
+    background-image: url(images/pychology.png);
+}
